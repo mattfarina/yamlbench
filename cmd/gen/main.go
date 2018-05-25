@@ -91,7 +91,7 @@ func genYaml() {
 	}
 
 	var w wrapper
-	for i := 0; i < 5000; i++ {
+	for i := 0; i < 100; i++ {
 		w = wrapper{Num: i}
 		err = charttmpl.Execute(f, w)
 		if err != nil {
@@ -99,7 +99,7 @@ func genYaml() {
 			os.Exit(1)
 		}
 
-		for j := 0; j < 100; j++ {
+		for j := 0; j < 5000; j++ {
 			w.Num2 = j
 			err = reltmpl.Execute(f, w)
 			if err != nil {

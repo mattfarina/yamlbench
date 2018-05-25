@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  branch = "master"
+  name = "github.com/buger/jsonparser"
+  packages = ["."]
+  revision = "2cac668e8456b4284edb0715e17e2af02d3ec993"
+
+[[projects]]
   name = "github.com/ghodss/yaml"
   packages = ["."]
   revision = "0ca9ea5df5451ffdf184b4428c902747c2c11cd7"
@@ -16,6 +22,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c61835c1905a3cadba79aac4f5caa83d002645c61c9a278b8ba7e20170e716b9"
+  inputs-digest = "b3a269456832559745e6d3ac5aea6c31a5b639f82ad28ef68272d261d2a086b3"
   solver-name = "gps-cdcl"
   solver-version = 1
